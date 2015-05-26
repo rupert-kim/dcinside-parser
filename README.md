@@ -16,7 +16,7 @@ npm install https://github.com/hiun/dcinside-parser.git
 var dc = require('./dcinside-parser');
 
 dc({
-    gallary: 'sejong', //gallery name (String, required)
+    gallery: 'sejong', //gallery name (String, required)
     id: 1,             //specific post id (Number, required)
     logging: true      //log result in console (Boolean, optional)
 }, function (data) {
