@@ -5,7 +5,7 @@ Parsing dcinside article by gallery name & article number
 ##installation
 
 ```bash
-npm install https://github.com/hiun/dcinside-parser.git
+npm install hiun/dcinside-parser
 ```
 
 ##example
