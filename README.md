@@ -18,7 +18,8 @@ var dc = require('./dcinside-parser');
 dc({
     gallery: 'sejong', //gallery name (String, required)
     id: 1,             //specific post id (Number, required)
-    logging: true      //log result in console (Boolean, optional)
+    logging: true,     //log result in console (Boolean, optional)
+    timeout: 5         //if request failed, force return a function after X second (Number, optional)
 }, function (data) {
     //do stuff
 });
