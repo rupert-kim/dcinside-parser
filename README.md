@@ -13,7 +13,7 @@ npm install hiun/dcinside-parser
 ###input
 
 ```javascript
-var dc = require('./dcinside-parser');
+var dc = require('dcinside-parser');
 
 dc({
     gallery: 'sejong', //gallery name (String, required)
