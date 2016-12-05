@@ -4,6 +4,6 @@ dc({
     gallery: 'sejong',
     id: 1,
     logging: true
-}, function (data) {
-	console.log((data));
+}, function (err,data) {
+	console.log(data);
 });
